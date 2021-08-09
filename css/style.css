@@ -1,0 +1,51 @@
+p {
+  font-size: 18px;
+  font-weight: bolder;
+  color: navy;
+  display: flex;
+}
+
+ul {
+  font-size: 14px;
+  font-weight: bold;
+  color: navy;
+  text-align: right;
+  display: flex;
+  list-style: none;
+}
+
+.parent {
+  color: navy;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.example {
+  font-size: 30px;
+  font-weight: normal;
+  color: black;
+  text-align: left;
+}
+
+.box {
+  width: 900px;
+  height: 150px;
+  background: navy;
+  position: absolute;
+  display: flex;
+}
+
+
+.relative {
+  position: relative;
+}
+
+.relative__img {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  display: flex;
+}

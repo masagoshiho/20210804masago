@@ -25,7 +25,12 @@ ul {
   font-size: 30px;
   font-weight: normal;
   color: black;
-  text-align: left;
+  position: absolute;
+}
+
+div {
+  position: relative;
+  top: 50%;
   
 }
 
@@ -34,23 +39,12 @@ ul {
   height: 150px;
   background: navy;
   position: absolute;
-  z-index: 10;
-  right: 50%;
-  top: 50%;
   display: flex;
 }
-
-
-.relative {
-  position: relative;
-  }
 
 .relative__img {
   width: 500px;
   height: 300px;
   position: relative;
-  z-index: 20;
-  left: 40%;
-  top: 50%;
   display: flex;
 }

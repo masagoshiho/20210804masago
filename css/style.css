@@ -16,7 +16,6 @@ ul {
 
 .parent {
   color: navy;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -30,8 +29,7 @@ ul {
 
 div {
   position: relative;
-  top: 50%;
-  
+  display: flex;
 }
 
 .box {
@@ -40,6 +38,7 @@ div {
   background: navy;
   position: absolute;
   display: flex;
+  z-index: 20;
 }
 
 .relative__img {
@@ -47,4 +46,7 @@ div {
   height: 300px;
   position: relative;
   display: flex;
+  z-index: 30;
+  right: 0;
+  top: 0;
 }

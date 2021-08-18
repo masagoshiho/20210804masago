@@ -1,4 +1,4 @@
-ul {
+.text {
   font-size: 14px;
   font-weight: bold;
   color: navy;
@@ -24,17 +24,11 @@ ul {
   z-index: 10;
 }
 
-div {
-  position: relative;
-  display: flex;
-}
-
 .box {
   width: 900px;
   height: 150px;
   background: navy;
   position: absolute;
-  display: flex;
   z-index: 20;
 }
 
@@ -48,7 +42,6 @@ div {
   width: 500px;
   height: 300px;
   position: relative;
-  display: flex;
   z-index: 30;
   right: 0;
   top: 0;

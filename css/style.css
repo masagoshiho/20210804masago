@@ -1,9 +1,6 @@
-.text {
-  font-size: 14px;
-  font-weight: bold;
-  color: navy;
+div {
   display: flex;
-  list-style: none;
+justify-content: space-between;
 }
 
 .parent {
@@ -12,6 +9,14 @@
   color: navy;
   justify-content: space-between;
   display: flex;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: bold;
+  color: navy;
+  display: flex;
+  list-style: none;
 }
 
 

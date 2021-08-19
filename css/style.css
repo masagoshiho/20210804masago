@@ -2,7 +2,6 @@
   font-size: 14px;
   font-weight: bold;
   color: navy;
-  text-align: right;
   display: flex;
   list-style: none;
 }
@@ -20,6 +19,7 @@
   font-size: 30px;
   font-weight: normal;
   color: black;
+  text-align: left;
   position: absolute;
   z-index: 10;
 }
@@ -44,5 +44,5 @@
   position: relative;
   z-index: 30;
   right: 0;
-  top: 0;
+  top: 50%;
 }
